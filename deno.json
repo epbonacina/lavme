@@ -20,6 +20,8 @@
   ],
   "imports": {
     "@/": "./",
+    "drizzle-kit": "npm:drizzle-kit@1.0.0-rc.5",
+    "drizzle-orm": "npm:drizzle-orm@1.0.0-rc.5",
     "fresh": "jsr:@fresh/core@^2.3.3",
     "preact": "npm:preact@^10.29.1",
     "@preact/signals": "npm:@preact/signals@^2.9.0",

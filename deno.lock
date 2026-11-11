@@ -37,6 +37,8 @@
     "npm:@prefresh/vite@^2.4.8": "2.4.12_preact@10.29.8_vite@7.3.7_preact-render-to-string@6.8.2",
     "npm:@remix-run/node-fetch-server@0.12": "0.12.0",
     "npm:@types/babel__core@^7.20.5": "7.20.5",
+    "npm:drizzle-kit@1.0.0-rc.5": "1.0.0-rc.5_drizzle-orm@1.0.0-rc.5",
+    "npm:drizzle-orm@1.0.0-rc.5": "1.0.0-rc.5_@opentelemetry+api@1.10.0",
     "npm:esbuild-wasm@~0.25.11": "0.25.12",
     "npm:esbuild@0.25.7": "0.25.7",
     "npm:esbuild@~0.25.5": "0.25.12",
@@ -1011,6 +1013,25 @@
         "ms"
       ]
     },
+    "drizzle-kit@1.0.0-rc.5_drizzle-orm@1.0.0-rc.5": {
+      "integrity": "sha512-8glQN7iFK3e1aOIoRit1NtslcsqE/rnlqNw/1jUC5Ph4RFVh/E5Jricxd6Nu2ugj2HlFZlZ6O4006AwqJ9e24g==",
+      "dependencies": [
+        "drizzle-orm"
+      ],
+      "optionalPeers": [
+        "drizzle-orm"
+      ],
+      "bin": true
+    },
+    "drizzle-orm@1.0.0-rc.5_@opentelemetry+api@1.10.0": {
+      "integrity": "sha512-7BMYTsAZbQ9DcQCtLG4G202Hq6nc/e8o1EBKN6nBweRI8EGPFe/VdyvWQCsU9fuZSiRjNpELolUSi//JFBq+lw==",
+      "dependencies": [
+        "@opentelemetry/api"
+      ],
+      "optionalPeers": [
+        "@opentelemetry/api"
+      ]
+    },
     "electron-to-chromium@1.5.478": {
       "integrity": "sha512-pftG+ma5Lm8O6/p45bhYT6StBN5ziQymaRzmCZwFl8DwWHKPPD93FdOmP1aqftcepolQYvrcyTLa17kE8Yf+jg=="
     },
@@ -1283,6 +1304,8 @@
       "jsr:@fresh/plugin-vite@^1.1.2",
       "npm:@preact/signals@^2.9.0",
       "npm:@types/babel__core@^7.20.5",
+      "npm:drizzle-kit@1.0.0-rc.5",
+      "npm:drizzle-orm@1.0.0-rc.5",
       "npm:preact@^10.29.1",
       "npm:vite@^7.1.3"
     ]
