@@ -1,0 +1,30 @@
+Clientes
+- ID: número obrigatório e único;
+- Nome: texto obrigatório;
+- CPF/CNPJ: texto opcional e único;
+- Data de cadastro: data obrigatória;
+- Anotações: texto opcional;
+- Aniversário: data opcional;
+- Como conheceu: texto opcional.
+- Frequência das cobranças: "Cron expression" obrigatória;
+- Método de pagamento preferido: ["dinheiro", "boleto" "PIX" etc.] opcional;
+
+Contatos:
+- ID: número único e obrigatório;
+- ID do cliente: número obrigatório;
+- Tipo: ["telefone", "e-mail", "WhatsApp", etc.];
+- Valor: texto obrigatório;
+- Aceita notificações: booleano obrigatório.
+
+Endereços:
+- ID: número obrigatório e único;
+- ID do cliente: número obrigatório;
+- CEP: texto obrigatório;
+- Logradouro: texto obrigatório;
+- Número: número obrigatório;
+- Complemento: texto opcional;
+- Bairro: texto obrigatório;
+- Cidade: texto obrigatório;
+- Estado: texto obrigatório.
+- Aceita entrega: booleano obrigatório;
+- Aceita coleta: booleano obrigatório.

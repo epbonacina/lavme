@@ -8,5 +8,6 @@ export interface State {
 }
 
 export const ISLAND_CHANNEL_NAME = "db-updates";
+export const DATABASE_URL = "app.db";
 
 export const define = createDefine<State>();
